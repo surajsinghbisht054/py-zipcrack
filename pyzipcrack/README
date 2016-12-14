@@ -1,0 +1,56 @@
+######################################################
+			By SSB Group							
+######################################################
+
+	Suraj Singh
+	Admin
+	SSB Group
+	surajsinghbisht054@gmail.com
+	https://hackworldwithssb.blogspot.in
+
+	Note: We Feel Proud To Be Indian
+######################################################
+
+******************* Features ************************
+
+This Script Supports Only Zip File in This Verson
+
+You Can Also Use This Script With crunch
+
+Cross-platform Supported
+
+*****************************************************
+
+Usage: pyzipcrack.py [options] 
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -f FILENAME, --file=FILENAME
+                        Please Specify Path of Zip File
+  -d DICTIONERY, --dict=DICTIONERY
+                        Please Specify Path of Dictionery.
+  -o OUTPUT, --output=OUTPUT
+                        Please Specify Path for Extracting
+  -r RESULT, --result=RESULT
+                        Please Specify Path if You Want to Save Result
+  -c CRUNCH, --crunch=CRUNCH
+                        For Using Passwords Directly from crunch use this
+                        arguments: -c True or --crunch True
+
+examples 1:
+	python pyzipcrack.py -f testfile.zip -d passwords.txt
+
+examples 2:
+	python pyzipcrack.py -f testfile.zip -d passwords.txt -o extractpath
+
+examples 3:
+	python pyzipcrack.py -f testfile.zip -d passwords.txt -r results.txt
+
+examples 4:
+	crucnh 1 5 abcde | python pyzipcrack.py -f testfile.zip -c True 
+
+Thanks For Using My Program
+
+Please feel free for any type of suggestion:
+Email : surajsinghbisht054@gmail.com
