@@ -30,7 +30,7 @@ Cross-platform Supported
 *****************************************************
 
 Usage: pyzipcrack.py [options] 
-
+```
 Options:
   --version             show program's version number and exit
   -h, --help            show this help message and exit
@@ -45,17 +45,17 @@ Options:
   -c CRUNCH, --crunch=CRUNCH
                         For Using Passwords Directly from crunch use this
                         arguments: -c True or --crunch True
+```
+# examples 1:
+	- python pyzipcrack.py -f testfile.zip -d passwords.txt
 
-examples 1:
-	python pyzipcrack.py -f testfile.zip -d passwords.txt
+# examples 2:
+	-python pyzipcrack.py -f testfile.zip -d passwords.txt -o extractpath
 
-examples 2:
-	python pyzipcrack.py -f testfile.zip -d passwords.txt -o extractpath
-
-examples 3:
+# examples 3:
 	python pyzipcrack.py -f testfile.zip -d passwords.txt -r results.txt
 
-examples 4:
+# examples 4:
 	crucnh 1 5 abcde | python pyzipcrack.py -f testfile.zip -c True 
 
 Thanks For Using My Program
